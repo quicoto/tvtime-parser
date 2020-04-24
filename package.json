@@ -1,0 +1,19 @@
+{
+  "name": "tvtime-parser",
+  "version": "1.0.0",
+  "description": "My shows from TVTime",
+  "main": "index.js",
+  "scripts": {
+    "build": "node process.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quicoto/tvtime-parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quicoto/tvtime-parser/issues"
+  },
+  "homepage": "https://github.com/quicoto/tvtime-parser#readme"
+}
