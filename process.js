@@ -23,6 +23,18 @@ try {
 
   // eslint-disable-next-line no-console
   console.log(shows);
+
+  // Save output
+  const content = new Date();
+
+  fs.writeFile('output.html', content, err => {
+    if (err) {
+      console.error(err)
+      return
+    }
+    // eslint-disable-next-line no-console
+    console.log('Output saved successfully!')
+  })
 } catch (err) {
     console.error(err);
 }
