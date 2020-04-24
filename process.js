@@ -28,9 +28,6 @@ try {
     shows.push(line.trim());
   });
 
-  // Double check is ordered by name
-  shows = shows.sort();
-
   // Save output
   let content = '';
 
