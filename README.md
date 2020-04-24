@@ -6,6 +6,14 @@ Generate an HTML output of your tv shows.
 
 1. Copy and paste your profile into `input.txt`
 
-2. Via Github Actions or in your terminal `npm run build`
+2. Chose your next step: Github Actions or in your own terminal.
 
-3. If using the terminal, you have it in the log. If using Github Actions, the build will have saved the output as artifact.
+### Terminal
+
+If using the terminal, you can do:
+
+```node process.js > output.html```
+
+### Github Actions
+
+With the repo's Github Action workflow on each push of the master branch we'll create an artifact attached to the build. So you can download the HTML file.
